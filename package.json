@@ -1,6 +1,6 @@
 {
   "name": "@joint-ui/icons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./lib/index.js",
   "module": "./es/index.js",
   "sideEffects": false,
@@ -20,7 +20,11 @@
     "joint-ui"
   ],
   "author": "jvb",
-  "files": ["es", "lib", "types"],
+  "files": [
+    "es",
+    "lib",
+    "types"
+  ],
   "peerDependencies": {
     "vue": ">=3.0.3"
   },
@@ -48,5 +52,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jvbf2e/joint-ui-icons"
+  },
+  "dependencies": {
+    "np": "^7.5.0"
   }
 }
